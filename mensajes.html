@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="sp">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <title>Mensajes - Vintage Rock Band</title>
+    <link rel="icon" type="imgage/png" href="img/logo.png">
+
+    <!-- BOOTSTRAP 4.5 STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- OWN STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/styles2.css">
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body class="my-bg full-w">
+
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="col-md-6" id="tasks-container">
+    			
+    		</div>
+    	</div>
+    </div>
+
+    <!-- BOOTSTRAP 4.5 SCRIPTS -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- FONTAWESOME CDN -->
+    <script src="https://kit.fontawesome.com/cc960dddf2.js" crossorigin="anonymous"></script>
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+
+    <script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAXpgAAfMpeU3KrgQrVpIgJTpuM7U5UunI",
+        authDomain: "crud-449fa.firebaseapp.com",
+        databaseURL: "https://crud-449fa.firebaseio.com",
+        projectId: "crud-449fa",
+        storageBucket: "crud-449fa.appspot.com",
+        messagingSenderId: "523748760830",
+        appId: "1:523748760830:web:07cd55b6c8a7994ac559af"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+
+    </script>
+
+    <script src="js/crud2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+/* -------- FONTS -------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* -------- COLORS -------- */
+* {
+    --yellow: #CF9F01;
+    --red: #B54646;
+}
+
+/* -------- MY COMPONENTS -------- */
+.btn-danger {
+    background-color: var(--red);
+    border: none;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.btn-danger:hover,
+.btn-danger.active {
+    background-color: var(--red);
+    border: none;
+}
+
+/* -------- BASICS -------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Sans;
+    font-size: 1rem:
+}
+
+.my-bg {
+    background: linear-gradient(180deg, #070F1C 0%, #212429 101.93%);
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-fluid {
+    padding: 0 9rem !important;
+}
+
+.pl {
+    padding-left: 38px;
+}
+
+.page-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #CF9F01;
+    margin: 30px 0;
+}
+
+p {
+    color: #ccc;
+}
+
+
+/* -------- NAVBAR -------- */
+.nav-item {
+    margin-right: 12px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #eee !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--red) !important;
+}
+
+.social-link {
+    text-align: center;
+    font-size: 26px;
+}
+
+.social-item {
+    color: #eee;
+    padding: 8px;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-color: var(--red);
+    margin-right: 4px;
+}
+
+/* -------- HISTORIA -------- */
+#foto-grupo {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 0 30px 12px 0;
+}
+
+/* -------- INTEGRANTES -------- */
+.nombre {
+    color: #fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.instrumento {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #B54646;
+    margin-bottom: 20px;
+}
+
+.category {
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.foto-integrante {
+    margin-bottom: 30px;
+}
+
+.integrante {
+    margin-bottom: 2.5rem;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    background-color: #222;
+    color: #ccc;
+}
+
+hr {
+    background-color: #eee;
+    width: 81%;
+    margin: auto;
+}
+
+.contact {
+    justify-content: space-around;
+}
+
+footer a {
+    color: #ccc;
+}
+
+/* -------- GALERIA -------- */
+#portfolio {
+    margin-bottom: 50px;
+}
+
+#portfolio .project-img {
+    max-width: 100%;
+    transition: transform .5s ease;
+
+}
+
+#portfolio .project-img:hover {
+    transform: scale(1.1);
+}
+
+.port-img {
+    overflow: hidden;
+}
+
+/* -------- CONTACTO -------- */
+.red-icon {
+    color: var(--red);
+}
+
+.contacto-item {
+    margin: 20px;
+}
+
+.contacto-item i {
+    margin-right: 8px;
+}
+
+.contacto-text {
+	color: #ccc;
+	font-size: 18px;
+}
+
+.form-group {
+    font-family: 'Roboto', Sans;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #eee;
+}
+
+.form-control.active {
+    background-color: transparent;
+}
+
+
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 800px) {
+    .container-fluid {
+        padding: 0 1rem !important;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact span {
+        margin-top: 8px;
+    }
+}
+
+.full-w {
+    min-height: 100vh;
+}
+
+.my-footer {
+    margin-top: 4%;
+}
