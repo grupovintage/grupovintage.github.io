@@ -97,8 +97,10 @@ header {
 }
 
 #title {
-    font-family: 'Pacifico', Sans-serif;
+    font-family: 'Vernada', Sans-serif;
     font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
 }
 
 #subtitle {
@@ -125,10 +127,6 @@ header {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-#title {
-    color: var(--yellow);
 }
 
 /* -------- CONOCER -------- */
